@@ -30,7 +30,7 @@ pio.templates.default = 'plotly_white'
 
 app = dash.Dash(external_stylesheets=[dbc.themes.BOOTSTRAP])
 
-url1 = "https://raw.githubusercontent.com/PicoRadia/sdataProjet/main/dataset/Spotify_train_dataset.csv"
+url1 = "https://github.com/zouheirtouil/SDATA-project/blob/master/dataset/Spotify_train_dataset.csv"
 
 df = pd.read_csv(url1)#31728 rows x 20 columns
 
