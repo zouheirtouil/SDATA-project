@@ -17,8 +17,6 @@ import feather
 import plotly.graph_objects as go
 import plotly.io as pio
 from plotly.subplots import make_subplots
-import dash_core_components as dcc
-import dash_html_components as html
 from dash.dependencies import Input, Output
 import plotly.figure_factory as ff
 pio.templates.default = 'plotly_white'
